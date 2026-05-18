@@ -1,0 +1,103 @@
+/* ============================================
+   GLASSMORPHISM MODULE
+   Effets glass réutilisables
+   ============================================ */
+
+.glassCard {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  transition: all var(--transition-base);
+  padding: var(--spacing-lg);
+}
+
+.glassCard:hover {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 48px rgba(31, 38, 135, 0.15);
+  transform: translateY(-8px);
+}
+
+.glassContainer {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  padding: var(--spacing-md);
+}
+
+.glassButton {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid #FFC107;
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+  cursor: pointer;
+  color: #1a1a1a;
+  font-weight: var(--font-weight-semibold);
+}
+
+.glassButton:hover {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.2);
+}
+
+.glassButtonPrimary {
+  background: #FFC107;
+  border: 2px solid #FFC107;
+  color: #1a1a1a;
+  font-weight: var(--font-weight-bold);
+  transition: all var(--transition-base);
+  cursor: pointer;
+  border-radius: var(--radius-lg);
+}
+
+.glassButtonPrimary:hover {
+  background: #FFB300;
+  border-color: #FFB300;
+  box-shadow: 0 8px 32px rgba(255, 193, 7, 0.3);
+  transform: translateY(-4px);
+}
+
+.glassOverlay {
+  backdrop-filter: blur(5px);
+  background: rgba(26, 26, 26, 0.3);
+}
+
+.glassText {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: #1a1a1a;
+  font-weight: var(--font-weight-semibold);
+}
+
+.glassBorder {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-xl);
+}
+
+.glassShadow {
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .glassCard {
+    padding: var(--spacing-md);
+  }
+
+  .glassContainer {
+    padding: var(--spacing-sm);
+  }
+
+  .glassCard:hover {
+    transform: translateY(-4px);
+  }
+}
