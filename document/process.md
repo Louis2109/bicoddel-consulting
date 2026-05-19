@@ -67,9 +67,9 @@
 - [ ] Tester responsive header (mobile menu optionnel v2)
 
 **Données réelles intégrées:**
-- Email: `loic.nkenfack@facsciences-uy1.cm`
-- Tel: `+237 691 921 049`
-- Adresse: `Biyem-Assi, Yaounde`
+- Email: `marcelindjounda@gmail.com`
+- Tel: `+237 696 776 730`(whatsap) 
+- Adresse: `Yaounde, Rond point Nlongkak`
 
 **Livrables:**
 - ✅ Header sticky fonctionnel
