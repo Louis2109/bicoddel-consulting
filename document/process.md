@@ -9,9 +9,9 @@
 
 ## 📋 CHECKLIST GLOBAL (Sprints)
 
-- [ ] **SPRINT 0:** Design tokens + Composants base
-- [ ] **SPRINT 1:** Header + Footer  
-- [ ] **SPRINT 2:** Hero section
+- [x] **SPRINT 0:** Design tokens + Composants base
+- [x] **SPRINT 1:** Header + Footer  
+- [x] **SPRINT 2:** Hero section
 - [ ] **SPRINT 3:** About + Chiffres
 - [ ] **SPRINT 4:** Services 3 piliers
 - [ ] **SPRINT 5:** Target + Références
@@ -31,15 +31,15 @@
 **Objectif:** Architecture + Design system fonctionnel
 
 **Tâches:**
-- [ ] Créer dossiers `/components/sections`, `/components/layout`, `/components/common`
-- [ ] Créer `design-tokens.css` avec palette jaune/blanc/noir/gris
-- [ ] Ajouter CSS glassmorphisme dans `styles/glassmorphism.module.css`
-- [ ] Créer `Button.tsx` avec 3 variantes (primary, secondary, tertiary)
-- [ ] Créer `Card.tsx` avec glass effect
-- [ ] Créer `SectionTitle.tsx` standardisé
-- [ ] Créer `GlassContainer.tsx` réutilisable
-- [ ] Créer `data/content.ts` avec structure de base
-- [ ] Setup Vercel + auto-deploy
+- [x] Créer dossiers `/components/sections`, `/components/layout`, `/components/common`
+- [x] Créer `design-tokens.css` avec palette jaune/blanc/noir/gris
+- [x] Ajouter CSS glassmorphisme dans `styles/glassmorphism.module.css`
+- [x] Créer `Button.tsx` avec 3 variantes (primary, secondary, tertiary)
+- [x] Créer `Card.tsx` avec glass effect
+- [x] Créer `SectionTitle.tsx` standardisé
+- [x] Créer `GlassContainer.tsx` réutilisable
+- [x] Créer `data/content.ts` avec structure de base
+- [x] Setup Vercel + auto-deploy
 
 **Livrables:**
 - ✅ Page blanche avec styles fonctionnels
@@ -59,12 +59,12 @@
 **Objectif:** Navigation et structure wrapper complète
 
 **Tâches:**
-- [ ] Créer `Header.tsx` (logo, nav 4 items, sticky)
-- [ ] Intégrer données réelles dans Footer (email, tel, adresse)
-- [ ] Créer `Footer.tsx` (logo, contact, mentions légales, liens)
-- [ ] Wrapper `layout.tsx` avec Header/Footer
-- [ ] Tester navigation links (smooth scroll)
-- [ ] Tester responsive header (mobile menu optionnel v2)
+- [x] Créer `Header.tsx` (logo, nav 4 items, sticky)
+- [x] Intégrer données réelles dans Footer (email, tel, adresse)
+- [x] Créer `Footer.tsx` (logo, contact, mentions légales, liens)
+- [x] Wrapper `layout.tsx` avec Header/Footer
+- [v] Tester navigation links (smooth scroll)
+- [x] Tester responsive header (mobile menu optionnel v2)
 
 **Données réelles intégrées:**
 - Email: `marcelindjounda@gmail.com`
@@ -85,19 +85,19 @@
 
 ### SPRINT 2: Hero Section (1h)
 
-**Status:** ⏳ À commencer
+**Status:** ✅ COMPLETE
 
 **Objectif:** Accroche immédiate + premier engagement
 
 **Tâches:**
-- [ ] Créer `Hero.tsx` complet
-- [ ] Intégrer titre: "Transformez vos projets en financements"
-- [ ] Intégrer sous-titre: "Expert en ingénierie de projet..."
-- [ ] Créer CTA button "Demander une consultation"
-- [ ] Ajouter CTA secondaire "Découvrir nos services" (scroll)
-- [ ] Ajouter fond/visuel (gradient jaune-blanc ou image)
-- [ ] Appliquer glassmorphisme au texte/blocs
-- [ ] Tester responsive hero
+- [x] Créer `Hero.tsx` complet
+- [x] Intégrer titre: "Transformez vos projets en financements"
+- [x] Intégrer sous-titre: "Expert en ingénierie de projet..."
+- [x] Créer CTA button "Demander une consultation"
+- [x] Ajouter CTA secondaire "Découvrir nos services" (scroll)
+- [x] Ajouter fond/visuel (gradient jaune-blanc ou image)
+- [x] Appliquer glassmorphisme au texte/blocs
+- [x] Tester responsive hero
 
 **Données fictives:**
 - Titre ✅

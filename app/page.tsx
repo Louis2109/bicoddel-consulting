@@ -1,25 +1,10 @@
+import { Hero } from '@/app/components/sections';
+
 export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-yellow-400/10 via-white to-white px-4 py-20">
-        <div className="max-w-2xl text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-yellow-400 mb-6">
-            Transformez vos projets en financements
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-            Expert en ingénierie de projet et financement pour collectivités décentralisées et partenaires internationaux
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#contact" className="px-8 py-4 bg-yellow-400 text-black font-bold rounded-lg hover:bg-yellow-500 transition-all duration-300">
-              Demander une consultation
-            </a>
-            <a href="#about" className="px-8 py-4 border-2 border-yellow-400 text-black font-bold rounded-lg hover:bg-yellow-400/10 transition-all duration-300">
-              Découvrir nos services
-            </a>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-gray-50">
