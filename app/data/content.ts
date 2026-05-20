@@ -11,10 +11,10 @@ export const siteContent = {
 
   // ===== CONTACT & SOCIAL =====
   contact: {
-    email: 'loic.nkenfack@facsciences-uy1.cm',
-    phone: '+237 691 921 049',
-    whatsapp: '+237691921049',
-    address: 'Biyem-Assi, Yaounde, Cameroon',
+    email: 'marcelindjounda@gmail.com',
+    phone: '+237 696 776 730',
+    whatsapp: '+237696776730',
+    address: 'Yaounde, Rond point Nlongkak',
     addressCity: 'Yaounde',
     addressCountry: 'Cameroon',
   },
